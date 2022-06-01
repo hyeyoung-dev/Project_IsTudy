@@ -1,9 +1,9 @@
-# 2022 삼성 멀티캠퍼스 지능형 웹서비스 풀스택 개발
+# 2022 SAMSUNG MultiCampus 지능형 웹서비스 Full-stack 개발
 
 6팀 Final Project
 
-- [기획서 PPT](https://github.com/hyeyoung-dev/Project_FITZZA/blob/main/%EB%AC%B8%EC%84%9C/7%ED%8C%80_%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
-- [프로젝트 결과 PPT](https://github.com/hyeyoung-dev/Project_FITZZA/blob/main/%EB%AC%B8%EC%84%9C/FITZZA%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B2%B0%EA%B3%BC.pdf)
+- [기획서 PPT](https://github.com/hyeyoung-dev/Project_IsTudy/blob/develop/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pptx.pdf)
+- [프로젝트 결과 PPT](https://github.com/hyeyoung-dev/Project_IsTudy/blob/develop/IsTudy%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pptx.pdf)
 
 ----
 
