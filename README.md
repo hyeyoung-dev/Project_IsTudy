@@ -1,8 +1,9 @@
 # 2022 삼성 멀티캠퍼스 지능형 웹서비스 Full-stack 개발
 
-6팀 Final Project
-
 🏆우수상🏆
+
+6팀 Final Project
+<br/><br/>
 
 - [기획서 PPT](https://github.com/hyeyoung-dev/Project_IsTudy/blob/develop/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pptx.pdf)
 - [프로젝트 결과 PPT](https://github.com/hyeyoung-dev/Project_IsTudy/blob/develop/IsTudy%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pptx.pdf)
