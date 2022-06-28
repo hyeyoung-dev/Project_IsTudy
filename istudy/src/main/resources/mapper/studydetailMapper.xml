@@ -57,14 +57,12 @@
 	   	where user_id=#{param1} and study_num=#{param2}
 	</delete>
 	<select id="LikeDetail" resultType="StudyVO">
-		SELECT 	 B.user_id, C.study_num,
-					COUNT( case when ifnull(C.user_id, 0)= #{param1} then 1 end) AS like_type,
-					COUNT(C.user_id) AS like_num
-		from	user B
-		LEFT JOIN 	study_like C
-		ON			B.user_id=C.user_id
-		WHERE 		C.study_num = #{param2}
-		GROUP BY 	C.study_num
+		SELECT 	 A.study_num, ifnull(C.like_type,0) as like_type, ifnull(C.like_num, 0) as like_num
+		from	study_room A 
+		LEFT JOIN 	(select user_id, study_num, COUNT( case when ifnull(user_id, 0)= #{param1} then 1 end) AS like_type,
+					COUNT(user_id) AS like_num from study_like group by study_num) C
+		ON			A.study_num=C.study_num
+		WHERE 		A.study_num = #{param2}
 	</select>
 	<select id="applyList" resultType="StudyVO">
 		select A.*, B.user_nick, B.profile_img, C.host_id
